@@ -7,12 +7,3 @@
 .back_color_yellow {
   background-color: yellow;
 }
-div ~ h3,
-h4,
-h5,
-h6 {
-  background-color: yellow;
-}
-hr ~ h3 {
-  background-color: white;
-}
