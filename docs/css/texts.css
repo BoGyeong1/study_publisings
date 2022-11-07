@@ -1,0 +1,12 @@
+* {
+  border: 0px solid gray;
+  font-family: "Noto Sans KR", sans-serif;
+}
+.text-align {
+  /* 컨텐츠가 무조건 텍스트여야한다 */
+  text-align: center;
+  /* width: 50%; */
+}
+.text-decoration {
+  text-decoration: none;
+}

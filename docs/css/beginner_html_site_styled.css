@@ -1,0 +1,39 @@
+* {
+  font-family: "Noto Sans KR", sans-serif;
+  font-family: "Open Sans", sans-serif;
+}
+h1 {
+  font-size: 60px;
+  color: #00539f;
+  word-spacing: 2px;
+  text-shadow: black 3px 3px;
+  margin-top: 5px;
+}
+.align-center {
+  text-align: center;
+}
+.backgroud-color-orange {
+  background-color: #ff9500;
+  border: 5px solid black;
+  padding: 5px 10px 25px 10px;
+  margin: 0px;
+}
+
+.margins {
+  margin: 10px 10px 10px 10px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  line-height: 30px;
+  font-size: 16px;
+}
+.backgroud-color-blue {
+  background-color: #00539f;
+  width: 650px;
+}
+.color-orange {
+  color: #ff9500;
+}
+
+.center {
+  margin: 0 auto;
+}
