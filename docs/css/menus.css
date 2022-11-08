@@ -6,6 +6,7 @@
 .list-style {
   list-style-type: none;
   display: inline-block;
+  padding-left: 0px;
 }
 .display {
   display: inline-block;
