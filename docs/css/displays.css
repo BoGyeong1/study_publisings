@@ -2,10 +2,12 @@
   border: 1px dotted gray;
 }
 
-ul {
-  list-style-type: none;
+.ul-flat * {
   display: inline-block;
+  margin: 0px auto 0px auto;
 }
-li {
-  display: inline-block;
+.menu-outline {
+  text-align: center;
+
+  background-color: yellow;
 }
