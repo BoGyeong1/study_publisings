@@ -1,0 +1,22 @@
+* {
+  /* border: 1px dotted gray; */
+  font-size: 13px;
+}
+.table-width {
+  width: 380px;
+}
+.div-center {
+  width: 380px;
+  text-align: center;
+}
+.table-size {
+  width: 900px;
+}
+
+.table-bg > th {
+  background-color: rgb(255, 160, 122);
+  color: rgb(255, 255, 255, 1);
+}
+.table-bg > td {
+  background-color: rgb(255, 254, 224);
+}
