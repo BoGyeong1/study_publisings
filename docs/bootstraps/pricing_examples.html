@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/pricing_examples.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <div class="container py-3">
+      <!-- 메뉴 -->
+      <header>
+        <div
+          class="d-flex flex-column flex-md-row pb-3 mt-3 mx-5 mb-4 border-bottom align-items-center"
+        >
+          <a
+            href=""
+            class="text-decoration-none d-flex align-items-center text-dark fs-4"
+            ><span
+              ><img
+                src="https://getbootstrap.kr/docs/5.0/assets/brand/bootstrap-logo-black.svg"
+                width="45"
+                alt=""
+              />
+              Pricing example</span
+            ></a
+          >
+
+          <nav class="d-inline-flex mt-3 mt-md-0 ms-md-auto">
+            <a href="#" class="nav-link text-dark me-3">Features</a>
+            <a href="#" class="nav-link text-dark me-3">Enterprise</a>
+            <a href="#" class="nav-link text-dark me-3">Support</a>
+            <a href="#" class="nav-link text-dark me-3">Pricing</a>
+          </nav>
+        </div>
+      </header>
+      <main>
+        <!-- pricing 설명 -->
+        <div class="text-center pb-md-4 p-4 mx-auto" id="pricingTitle">
+          <div class="display-4 m-3">Pricing</div>
+          <p class="fs-5 text-muted">
+            Quickly build an effective pricing table for your potential
+            customers with this Bootstrap example. It’s built with default
+            Bootstrap components and utilities with little customization.
+          </p>
+        </div>
+
+        <!-- 요금제 -->
+        <div class="row mb-3 text-center row-cols-1 row-cols-md-3">
+          <!-- Free -->
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header">
+                <div class="fs-3">Free</div>
+              </div>
+              <div class="card-body">
+                <div class="card-title fs-1">
+                  $0<span class="text-muted fs-2">/mo</span>
+                </div>
+                <div class="mt-3 mb-4">
+                  <div>10 users included</div>
+                  <div>2 GB of storage</div>
+                  <div>Email support</div>
+                  <div>Help center access</div>
+                </div>
+                <button class="btn btn-lg btn-outline-primary w-100">
+                  Sign up for free
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- pro -->
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+              <div class="card-header">
+                <div class="fs-3">Pro</div>
+              </div>
+              <div class="card-body">
+                <div class="card-title fs-1">
+                  $15<span class="text-muted fs-2">/mo</span>
+                </div>
+                <div class="mt-3 mb-4">
+                  <div>20 users included</div>
+                  <div>10 GB of storage</div>
+                  <div>Priority email support</div>
+                  <div>Help center access</div>
+                </div>
+                <button class="btn btn-lg btn-primary w-100">
+                  Get started
+                </button>
+              </div>
+            </div>
+          </div>
+          <!-- Enterprise -->
+          <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm border-primary">
+              <div class="card-header text-bg-primary border-primary">
+                <div class="fs-3">Enterprise</div>
+              </div>
+              <div class="card-body">
+                <div class="card-title fs-1">
+                  $29<span class="text-muted fs-2">/mo</span>
+                </div>
+                <div class="mt-3 mb-4">
+                  <div>30 users included</div>
+                  <div>15 GB of storage</div>
+                  <div>Phone and email support</div>
+                  <div>Help center access</div>
+                </div>
+                <button class="btn btn-lg btn-primary w-100">Contact us</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Compare plans -->
+        <div class="display-6 text-center mb-4">Compare plans</div>
+        <div class="mb-5">
+          <table class="table text-center">
+            <thead>
+              <tr>
+                <th width="40%"></th>
+                <th width="20%">Free</th>
+                <th width="20%">Pro</th>
+                <th width="20%">Enterprise</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="text-start">Public</th>
+                <td>
+                  <div class="material-symbols-outlined">check</div>
+                </td>
+                <td>
+                  <span class="material-symbols-outlined"> check </span>
+                </td>
+                <td>
+                  <span class="material-symbols-outlined"> check </span>
+                </td>
+              </tr>
+              <tr>
+                <th class="text-start">Private</th>
+                <td></td>
+                <td>
+                  <div class="material-symbols-outlined">check</div>
+                </td>
+                <td>
+                  <div class="material-symbols-outlined">check</div>
+                </td>
+              </tr>
+              <tr>
+                <th class="text-start">Permissions</th>
+                <td>
+                  <div class="material-symbols-outlined">check</div>
+                </td>
+                <td>
+                  <div class="material-symbols-outlined">check</div>
+                </td>
+                <td>
+                  <div class="material-symbols-outlined">check</div>
+                </td>
+              </tr>
+              <tr>
+                <th class="text-start">Sharing</th>
+                <td></td>
+                <td>
+                  <div class="material-symbols-outlined">check</div>
+                </td>
+                <td>
+                  <div class="material-symbols-outlined">check</div>
+                </td>
+              </tr>
+              <tr>
+                <th class="text-start">Unlimited members</th>
+                <td></td>
+                <td>
+                  <div class="material-symbols-outlined">check</div>
+                </td>
+                <td>
+                  <div class="material-symbols-outlined">check</div>
+                </td>
+              </tr>
+              <tr>
+                <th class="text-start">Extra security</th>
+                <td></td>
+                <td></td>
+                <td>
+                  <div class="material-symbols-outlined">check</div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <footer class="border-top pt-5 my-md-4 pt-md-4">
+        <div class="row">
+          <div class="col-12 col-md mb-3">
+            <img
+              src="https://getbootstrap.kr/docs/5.0/assets/brand/bootstrap-logo.svg"
+              alt=""
+              width="30"
+              class="mb-2"
+            />
+            <small class="d-block text-muted">@ 2017-2022</small>
+          </div>
+          <div class="col-12 col-md">
+            <div class="fs-4 mb-1">Features</div>
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <a href="" class="link-secondary text-decoration-none"
+                  >Cool stuff</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="" class="link-secondary text-decoration-none"
+                  >Random feature</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="" class="link-secondary text-decoration-none"
+                  >Team feature</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="" class="link-secondary text-decoration-none"
+                  >Stuff for developers</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="" class="link-secondary text-decoration-none"
+                  >Another one</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="" class="link-secondary text-decoration-none"
+                  >Last time</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md">
+            <div class="fs-4 mb-1">Resources</div>
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <a href="" class="link-secondary text-decoration-none"
+                  >Resource</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="" class="link-secondary text-decoration-none"
+                  >Resource name</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="" class="link-secondary text-decoration-none"
+                  >Another resource</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="" class="link-secondary text-decoration-none"
+                  >Final resource</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-12 col-md">
+            <div class="fs-4 mb-1">About</div>
+            <ul class="list-unstyled">
+              <li class="mb-1">
+                <a href="" class="link-secondary text-decoration-none">Team</a>
+              </li>
+              <li class="mb-1">
+                <a href="" class="link-secondary text-decoration-none"
+                  >Locations</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="" class="link-secondary text-decoration-none"
+                  >Privacy</a
+                >
+              </li>
+              <li class="mb-1">
+                <a href="" class="link-secondary text-decoration-none">Terms</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
